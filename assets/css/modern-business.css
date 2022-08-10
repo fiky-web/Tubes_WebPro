@@ -1,0 +1,52 @@
+
+
+body {
+ 
+ padding-top: 54px;
+
+}
+
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.carousel-indicators {
+  position: absolute !important;
+  bottom: 10px !important;
+  left: 50% !important;
+  z-index: 15 !important;
+  width: 60% !important;
+  padding-left: 0 !important;
+  margin-left: -30% !important;
+  text-align: center !important;
+  list-style: none !important;
+}
+.carousel-indicators li {
+  display: inline-block !important;
+  width: 10px !important;
+  height: 10px !important;
+
+  text-indent: -999px !important;
+  cursor: pointer !important;
+  background-color: #000 \9 !important;
+
+  border-radius: 10px !important;
+}

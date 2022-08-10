@@ -1,0 +1,154 @@
+/* Navbar */
+.bg-nav {
+  background: white !important;
+}
+
+.bg-light-scrolled {
+  transition: 500ms ease;
+  background: #64fa85 !important;
+}
+
+.navbar-collapse {
+  color: #333 !important;
+}
+
+.navbar-semua {
+  background: #64fa85;
+}
+
+.navbar-collapse {
+  list-style: none;
+}
+
+.navbar-collapse li {
+  padding-left: 2px;
+}
+
+.navbar-collapse li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navbar-collapse li a:hover {
+  color: rgb(27, 216, 100) !important;
+}
+
+/* BreadCrumb */
+.breadcrumb {
+  padding-top: 70px;
+}
+
+/* Carousel Slider */
+.carousel-item {
+  height: 900px;
+  margin-top: 40px;
+}
+
+/* Bootstrap Card */
+.card {
+  margin-top: 40%;
+  margin-left: 18%;
+  margin-bottom: 10%;
+}
+
+.card:hover {
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(84, 214, 247, 0.75) !important;
+  -moz-box-shadow: -1px 9px 40px -12px rgba(42, 156, 209, 0.75) !important;
+  box-shadow: -1px 9px 40px -12px rgba(31, 151, 206, 0.75);
+}
+
+/* Tabel */
+.table-dark {
+  text-align: center !important;
+}
+
+/* Footer */
+.container-footer {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+/* Team */
+.team-section {
+  overflow: hidden;
+  text-align: center;
+  padding: 60px;
+}
+
+.team-section h1 {
+  padding-top: 60px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  color: white;
+  font-size: 40px;
+}
+
+.border {
+  display: block;
+  margin: auto;
+  width: 160px;
+  height: 5px;
+  background: white !important;
+  margin-bottom: 25px;
+}
+
+.Foto {
+  margin-bottom: 40px;
+}
+
+.Foto a {
+  display: inline-block;
+  margin: 0 30px;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 70%;
+}
+
+.Foto a img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: 0.4s all;
+}
+
+.Foto a:hover > img {
+  filter: none;
+}
+
+.section {
+  width: 100%;
+  margin: auto;
+  font-size: 20px;
+  color: antiquewhite;
+  text-align: center;
+  height: 0;
+  overflow: hidden;
+}
+
+.section:target {
+  height: auto;
+}
+
+.nama {
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+hr {
+  width: 250px;
+  border-top: 3px solid #007bff;
+}
+
+.about {
+  margin-bottom: 100px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.card:hover {
+  background-color: rgb(102, 247, 126);
+}
